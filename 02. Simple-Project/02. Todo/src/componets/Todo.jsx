@@ -16,8 +16,11 @@ const Todo = () => {
 
     setInput("");
   };
+
   const removeTodo = (id) =>
     setTodos((todos) => todos.filter((t) => t.id !== id));
+
+  
   return (
     <div className="container">
       <input
